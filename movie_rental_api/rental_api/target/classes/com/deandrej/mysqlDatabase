@@ -1,0 +1,22 @@
+Table: movie
+Columns:
+movie_id int AI PK 
+title varchar(45) 
+genre varchar(45) 
+movie_price int         
+
+Table: trans_his
+Columns:
+trans_id int AI PK 
+movie_id int PK 
+use_id int PK 
+date date
+
+Table: user
+Columns:
+user_id int AI PK 
+name varchar(45) 
+email varchar(45) 
+phone varchar(45) 
+password varchar(45) 
+card_num int
